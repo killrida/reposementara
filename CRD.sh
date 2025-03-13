@@ -45,3 +45,10 @@ Pin-Priority: 1000
 
 #6. Perbarui daftar paket Anda dan instal paket .deb Firefox:
 sudo apt-get update && sudo apt-get install firefox 
+
+#Download & Install ( AudioRelay & libflac8 )
+#AudioRelay
+wget https://dl.audiorelay.net/setups/linux/audiorelay-0.27.5.deb
+
+#libflac8
+wget http://archive.ubuntu.com/ubuntu/pool/main/f/flac/libflac8_1.3.3-2build2_amd64.deb
